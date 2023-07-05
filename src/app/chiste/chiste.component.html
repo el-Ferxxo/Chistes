@@ -1,0 +1,15 @@
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+<body class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-6">
+            <div class="card text-bg-dark mb-3" style="max-width: 30rem;">
+                <div class="card-body">
+                    <h1 class="card-text">{{informacionRecibida.value}}</h1>
+                    <button (click)="obtenerChisteDelServicio()" type="button" class="btn btn-info">Refrescar chiste</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
